@@ -13,12 +13,12 @@
   }
 ```
 ## Variables
-- spent: (float) add budget in dollars ($).
-- age: (str) user's age.
-- gender: (str) user's gender "F" for female and "M" for male.
-- interest1 and interest2: (str) the list is down below.
-- task: (str) ML models "approved" for regression with approved_conversion, "total" for regression with total_conversion, "classification" for classification model.
-- audience: (str) if "all" predict all possible audience (age * gender = 8 combinations) if "" then return single prediction.
+- **spent**: *(float)* add budget in dollars ($).
+- **age**: *(str)* user's age consists of "30-35", "35-39", "40-44", and "45-49".
+- **gender**: *(str)* user's gender "F" for female and "M" for male.
+- **interest1** and **interest2**: *(str)* the list is down below.
+- **task**: *(str)* ML models "approved" for regression with approved_conversion, "total" for regression with total_conversion, "classification" for classification model.
+- **audience**: *(str)* if "all" predict all possible audience (age * gender = 8 combinations) if "" then return single prediction.
 
 ## Output
 for "all" in audience
